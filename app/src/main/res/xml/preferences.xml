@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_check_for_update"
+        android:persistent="false"
+        android:title="@string/check_for_update"/>
+    <Preference
+        android:key="pref_clear_post_cache"
+        android:persistent="false"
+        android:title="@string/clear_post_cache"/>
+    <Preference
+        android:key="pref_clear_image_cache"
+        android:persistent="false"
+        android:title="@string/clear_image_cache"/>
+
+    <Preference
+        android:key="pref_update_board"
+        android:persistent="false"
+        android:title="@string/update_board"
+        android:summary="@string/update_board2"/>
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="pref_use_https"
+        android:persistent="true"
+        android:summaryOff="@string/use_https_hint"
+        android:summaryOn="@string/use_https_hint"
+        android:title="@string/use_https"/>
+
+    <ListPreference
+        android:defaultValue="day"
+        android:entries="@array/day_night_mode"
+        android:entryValues="@array/day_night_mode_value"
+        android:key="pref_night_mode"
+        android:summary="%s"
+        android:title="@string/night_mode"/>
+
+    <Preference
+        android:key="pref_eula"
+        android:persistent="false"
+        android:title="@string/eula"/>
+</PreferenceScreen>

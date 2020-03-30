@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/create"
+        android:title="@string/create_a_new_message"
+        android:icon="@drawable/ic_create_white_24dp"
+        app:showAsAction="always"/>
+
+</menu>

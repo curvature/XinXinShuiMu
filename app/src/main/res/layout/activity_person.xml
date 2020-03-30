@@ -1,0 +1,201 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/avatar"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/nickname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/nickname"/>
+
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/post_total"
+                android:layout_alignTop="@id/nickname2"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/identity2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nickname"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/identity"/>
+
+            <TextView
+                android:id="@+id/identity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/post_total"
+                android:layout_alignTop="@id/identity2"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/post_total2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/identity"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/post_total"/>
+
+            <TextView
+                android:id="@+id/post_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/post_total2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/post_total2"/>
+
+            <TextView
+                android:id="@+id/login_total2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_total"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/login_total"/>
+
+            <TextView
+                android:id="@+id/login_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/login_total2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/login_total2"/>
+
+            <TextView
+                android:id="@+id/level2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_total"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/level"/>
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/level2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/level2"/>
+
+            <TextView
+                android:id="@+id/points2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/level"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/points"/>
+
+            <TextView
+                android:id="@+id/points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/points2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/points2"/>
+
+            <TextView
+                android:id="@+id/last_login2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/points"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/last_login"/>
+
+            <TextView
+                android:id="@+id/last_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/last_login2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/last_login2"/>
+
+
+            <TextView
+                android:id="@+id/last_ip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/last_login"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/last_ip"/>
+
+            <TextView
+                android:id="@+id/last_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/last_ip2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/last_ip2"/>
+
+            <TextView
+                android:id="@+id/status_now2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/last_ip"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/status_now"/>
+
+            <TextView
+                android:id="@+id/status_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/status_now2"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/status_now2"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="sliding">150dp</dimen>
+    <dimen name="bubble_size">40dp</dimen>
+    <dimen name="action">56dp</dimen>
+    <dimen name="bottom_padding">72dp</dimen>
+    <dimen name="indicator_padding">6dp</dimen>
+    <dimen name="spread_width">38dp</dimen>
+    <dimen name="left_margin">72dp</dimen>
+    <dimen name="stroke">1dp</dimen>
+    <dimen name="left">88dp</dimen>
+    <dimen name="page_gap">12dp</dimen>
+    <dimen name="elevation">8dp</dimen>
+</resources>

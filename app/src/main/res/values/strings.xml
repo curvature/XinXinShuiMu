@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">新新水木</string>
+    <string name="ok">确定</string>
+    <string name="favorite_hint">收藏版面成功！可在首页侧边菜单中查看</string>
+    <string name="too_many_favorite">最多收藏6个版面</string>
+    <string name="publishing">正在发表文章</string>
+    <string name="published">发表成功</string>
+    <string name="title_empty">请输入标题</string>
+    <string name="username_empty">请输入用户名</string>
+    <string name="password_empty">请输入密码</string>
+    <string name="content_empty">请输入正文</string>
+    <string name="slogan">水木，首先是一种心情，然后是一种生活方式</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="label_previous">Previous</string>
+    <string name="label_next">Next</string>
+
+    <string name="loading">加载中</string>
+    <string name="go2page">翻页</string>
+    <string name="loading_failed">加载失败，点击重试</string>
+
+    <string-array name="mode_array">
+        <item>@string/main_page</item>
+        <item>@string/settings</item>
+    </string-array>
+
+    <string-array name="day_night_mode">
+        <item>@string/day</item>
+        <item>@string/night</item>
+        <item>@string/auto</item>
+    </string-array>
+
+    <string-array name="day_night_mode_value">
+        <item>day</item>
+        <item>night</item>
+        <item>auto</item>
+    </string-array>
+
+    <string-array name="message_pager_title_array">
+        <item>@string/inbox</item>
+        <item>@string/sent</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="top_ten">十大</string>
+    <string name="main_page">首页导读</string>
+    <string name="mail">站内信</string>
+    <string name="settings">设置</string>
+
+    <string name="share">分享</string>
+    <string name="save_to_gallery">保存到手机相册</string>
+    <string name="search">搜索</string>
+    <string name="search_board">搜索版面</string>
+    <string name="login_before_reply">回复文章请先登录</string>
+    <string name="create_new_post">发表文章</string>
+    <string name="favorite">收藏</string>
+    <string name="send">发送</string>
+    <string name="create_a_new_message">写站内信</string>
+    <string name="try_load_more">已到末尾，点击刷新</string>
+    <string name="try_load_more_search_result">已加载全部%d篇搜索结果，点击刷新</string>
+
+    <string name="from_location">From %1$s</string>
+
+    <string name="inbox">收件箱</string>
+    <string name="sent">发件箱</string>
+
+    <string name="no_more_posts">没了</string>
+
+    <string name="top_ten_hot">十大热门</string>
+
+    <string name="message_time_format">yyyy/MM/dd</string>
+
+    <string name="failed_to_refresh">刷新失败</string>
+    <string name="failed">加载失败</string>
+    <string name="login_failed">登录失败</string>
+    <string name="signature_device">设备签名</string>
+    <string name="load_article_failed">加载文章失败</string>
+    <string name="retry">重试</string>
+    <string name="at_least_one">请输入至少一个搜索词</string>
+
+    <string name="title">标题</string>
+    <string name="page_x">第%d页</string>
+    <string name="publish_failed">发表文章失败</string>
+    <string name="reply_who">回复 %s</string>
+    <string name="current_version">当前版本 %s</string>
+    <string name="current_cache_size">当前已占用 %s</string>
+    <string name="current_cache_size_zero">当前已占用 0 B</string>
+    <string name="check_for_update">检查更新</string>
+    <string name="eula">用户协议</string>
+    <string name="clear_post_cache">清除帖子缓存</string>
+    <string name="clear_image_cache">清除图片缓存</string>
+    <string name="update_board">更新版面数据</string>
+    <string name="update_board2">重新爬取所有版面数据，请确认当前水木站点可用</string>
+    <string name="update_board_failed">爬取失败</string>
+    <string name="update_board_success">成功更新版面数据</string>
+    <string name="use_https">使用HTTPS</string>
+    <string name="use_https_hint">开启可提升安全性</string>
+    <string name="main_body">正文</string>
+    <string name="tap_to_retry">点击屏幕，重新加载</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="details">详细资料</string>
+    <string name="login_before_post">发表文章请先登录</string>
+    <string name="auto">自动</string>
+    <string name="day">日间</string>
+    <string name="night">夜间</string>
+    <string name="nickname">昵称</string>
+    <string name="identity">身份</string>
+    <string name="post_total">文章总数</string>
+    <string name="login_total">登录次数</string>
+    <string name="level">论坛等级</string>
+    <string name="points">论坛积分</string>
+    <string name="last_login">上次登录</string>
+    <string name="last_ip">最后访问</string>
+    <string name="status_now">当前状态</string>
+
+    <string name="author">作者账号</string>
+    <string name="cancel">取消</string>
+
+    <string name="permission_denied">没有写入磁盘权限</string>
+    <string name="saved">保存成功</string>
+    <string name="save_failed">保存失败</string>
+    <string name="load_file_failed">读取图片文件失败</string>
+
+    <string name="disk_cache_on">开启磁盘缓存</string>
+    <string name="disk_cache_off">关闭磁盘缓存</string>
+    <string name="gilded">精华文章</string>
+    <string name="with_att">带附件文章</string>
+
+    <string name="error_no_metadata">Unable to retrieve metadata.</string>
+    <string name="browse_genres">Genres</string>
+    <string name="browse_genre_subtitle">Songs by genre</string>
+    <string name="browse_musics_by_genre_subtitle">%1$s songs</string>
+    <string name="random_queue_title">Random music</string>
+    <string name="error_no_connection">Cannot connect to server. Please, check your Internet connectivity.</string>
+    <string name="error_loading_media">Error Loading Media</string>
+    <string name="casting_to_device">Casting to %1$s</string>
+    <string name="currently_playing_song">Song currently playing</string>
+    <string name="currently_playing_artist">Artist of currently playing song</string>
+    <string name="currently_playing_extra_info">Extra info for currently playing song</string>
+    <string name="play_item">Play item</string>
+    <string name="play_pause">play or pause</string>
+    <string name="skip_next">skip to next</string>
+    <string name="skip_prev">skip to previous</string>
+    <string name="touch_to_cast">Touch to connect to a Google Cast device</string>
+    <!-- Use the default receiver. To customize a styled media receiver, you can use
+         the css and images under <project-root>/docs/cast_styled_receiver -->
+    <string name="cast_application_id">CC1AD845</string>
+    <string name="home_title">Home</string>
+    <string name="updating_boards">爬取版面数据中…</string>
+    <string name="related_content_header">You may also like</string>
+    <string name="action_listen">Listen</string>
+
+
+    <string name="title_contains">标题含有</string>
+
+    <string name="open_content_drawer">Open the main menu</string>
+    <string name="close_content_drawer">Close the main menu</string>
+    <string name="placeholder_message">This is a placeholder for your application code.</string>
+    <string name="drawer_allmusic_title">All Music</string>
+    <string name="drawer_playlists_title">Playlists</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="background_image_str">Background image for album art</string>
+    <string name="search_queue_title">Search results</string>
+    <string name="no_search_results">No search results.</string>
+    <string name="media_route_menu_title">Play on…</string>
+    <string name="nav_header_username">Username</string>
+
+    <!-- Notificaiton Channel -->
+    <string name="channel_audio_playback">音频播放</string>
+    <string name="channel_publish">发表文章进度通知</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_time_format">yyyy/MM/dd hh:mm:ss</string>
+
+</resources>

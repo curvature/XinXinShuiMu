@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.newsmth.dirac.widget.KeepPressedRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/secondary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    <TextView
+        android:id="@+id/board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/tertiary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/board"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/board"
+        android:background="?android:listDivider"/>
+
+</net.newsmth.dirac.widget.KeepPressedRelativeLayout>
