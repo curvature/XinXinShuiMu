@@ -68,9 +68,5 @@ public class Dirac extends Application {
         Fresco.initialize(this, config);
 
         UserManager.getInstance().start(true);
-
-//    Stetho.initializeWithDefaults(this);
-
-//    TinyDancer.create().show(this);
     }
 }
