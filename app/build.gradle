@@ -10,14 +10,14 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId "net.newsmth.dirac"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 23
-        versionName "1.1"
+        versionCode 24
+        versionName "1.2"
         resConfigs "en", "zh"
     }
     if (keystorePropertiesFile.exists()) {
